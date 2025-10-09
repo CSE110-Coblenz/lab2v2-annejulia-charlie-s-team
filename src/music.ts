@@ -1,4 +1,4 @@
-const Playlist: string[] = [
+export const Playlist: string[] = [
     "Song 1- Artist A",
     "Song 2- Artist B",
     "Song 3- Artist C",
@@ -7,13 +7,10 @@ const Playlist: string[] = [
 ];
 
 
-function printPlaylist(Playlist: string[]) {
+export function printPlaylist(Playlist: string[]) {
     console.log("Playlist: " );
     for(let i = 0; i < Playlist.length; i++) {
         console.log("♡ " + Playlist[i]);
     }
 }
-
-
-printPlaylist(Playlist);
 

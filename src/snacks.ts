@@ -1,4 +1,4 @@
-const snacks: string[] = [
+export const snacks: string[] = [
     "Carrots and Hummus",
     "Mango",
     "Rice Cake",
@@ -6,13 +6,11 @@ const snacks: string[] = [
 ];
 
 
-function printSnacksArray(snacks: string[]) {
+export function printSnacksArray(snacks: string[]) {
     console.log("Snacks Array: " );
     for(let i = 0; i < snacks.length; i++) {
         console.log("♡ " + snacks[i]);
     }
 }
 
-
-printSnacksArray(snacks);
 
