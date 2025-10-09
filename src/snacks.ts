@@ -1,11 +1,16 @@
-let snackArray: string[] = ["chips", "fruit", "crackers", "yogurt", "granola bar"]
+export const snacks: string[] = [
+    "Carrots and Hummus",
+    "Mango",
+    "Rice Cake",
+    "Chips"
+];
 
-export function printAllSnacks(): void {
-    console.log(snackArray)
+
+export function printSnacksArray(snacks: string[]) {
+    console.log("Snacks Array: " );
+    for(let i = 0; i < snacks.length; i++) {
+        console.log("♡ " + snacks[i]);
+    }
 }
 
-function main (): void {
-    printAllSnacks()
-}
 
-main();
