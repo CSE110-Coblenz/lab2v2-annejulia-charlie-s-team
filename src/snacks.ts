@@ -4,7 +4,7 @@ export const snacks: string[] = [
     "Carrots and Hummus",
     "Mango",
     "Rice Cake",
-    "Chips",
+    "chips",
     "Chocolate",
     "Granola Bar",
     "Donut"
