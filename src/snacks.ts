@@ -1,8 +1,13 @@
+import { animateFeature } from "./animation.ts";
+
 export const snacks: string[] = [
     "Carrots and Hummus",
     "Mango",
     "Rice Cake",
-    "Chips"
+    "Chips",
+    "Chocolate",
+    "Granola Bar",
+    "Donut"
 ];
 
 
@@ -12,5 +17,7 @@ export function printSnacksArray(snacks: string[]) {
         console.log("♡ " + snacks[i]);
     }
 }
+
+
 
 
