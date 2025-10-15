@@ -1,5 +1,5 @@
 import { snacks, printSnacksArray } from "./snacks";
-import { animateFeature } from "./animation.ts";
+import { animateFeature } from "./animation";
 
 function main() {
   animateFeature("Snacks Array");
