@@ -1,11 +1,5 @@
-export function animateFeature(featureName: string): void {
-  const bold = "\x1b[1m";     // ANSI code for bold
-  const italic = "\x1b[3m";   // ANSI code for italics
-  const reset = "\x1b[0m";    // reset text style
-
-<<<<<<< HEAD
-  console.log(`${bold}Party! Party! Party! - ${italic}${featureName}${reset}`);
-=======
-  console.log(`${bold}Perty! Party! Party! - ${italic}${featureName}${reset}`);
->>>>>>> bf29fb9 (Added all final snacks)
+// src/animation.ts
+export function animate(featureName: string) {
+  console.log(`\x1b[1mParty! Party! Party! - ${featureName}\x1b[0m`);
+  console.log(`\x1b[3mLet’s go!\x1b[0m`);
 }

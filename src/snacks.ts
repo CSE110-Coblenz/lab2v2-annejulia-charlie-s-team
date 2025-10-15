@@ -1,35 +1,16 @@
-<<<<<<< HEAD
-import { animateFeature } from "./animation.ts";
+// src/snacks.ts
+import { animate } from "./animation";
 
-=======
->>>>>>> bf29fb9 (Added all final snacks)
 export const snacks: string[] = [
-    "Carrots and Hummus",
-    "Mango",
-    "Rice Cake",
-    "Chips",
-<<<<<<< HEAD
-    "Chocolate",
-    "Granola Bar",
-    "Donut"
-=======
-    "Ice Cream",
-    "Chocolate",
-    "Grapes"
->>>>>>> bf29fb9 (Added all final snacks)
+  "chips",             
+  "Carrots and Hummus",
+  "Mango",
+  "pretzels",
+  "seaweed snacks",
+  "rice crackers",
 ];
 
-
-export function printSnacksArray(snacks: string[]) {
-    console.log("Snacks Array: " );
-    for(let i = 0; i < snacks.length; i++) {
-        console.log("♡ " + snacks[i]);
-    }
+export function printSnacks() {
+  animate("Snacks Time");
+  for (const s of snacks) console.log(s);
 }
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> bf29fb9 (Added all final snacks)
