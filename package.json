@@ -1,0 +1,15 @@
+{
+  "name": "lab2v2-annejulia-charlie-s-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.1"
+  }
+}
